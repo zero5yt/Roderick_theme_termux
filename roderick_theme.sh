@@ -35,7 +35,7 @@ create_and_install_banner() {
     
     # I-define ang BANNER COMMAND (Naka-fixed na ang mono12 font at Fmetal filter)
     # Gagamit ng -F metal filter at mono12 font
-    BANNER_COMMAND="toilet -f mono12 -Fmetal \"$USER_HANDLE\""
+    BANNER_COMMAND="figlet -f mono12 -Fmetal \"$USER_HANDLE\""
     
     echo -e "\n\033[1;33m>>> Updating Termux Shell Configuration... (clearing old .bashrc)\033[0m"
     
@@ -75,4 +75,5 @@ echo -e "\033[1;33m>>> 3/3: Installation Complete!\033[0m"
 echo -e "\033[1;32mSUCCESS: Ang iyong custom theme ay na-save sa $CONFIG_FILE.\033[0m"
 echo -e "\n\033[1;37mFINAL STEP:\033[0m"
 echo -e "Paki-\033[1;36mCLOSE at OPEN ULIT\033[0m ang Termux app para makita ang bagong theme!"
+
 echo "--------------------------------------------------"
